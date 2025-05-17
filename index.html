@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>청소 당번 뽑기</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-pink-100 min-h-screen flex items-center justify-center font-sans">
+  <div class="bg-white p-8 rounded-2xl shadow-2xl text-center w-96">
+    <h1 class="text-3xl font-bold text-pink-600 mb-3">🧹 청소 당번 뽑기 🐰</h1>
+    <p class="text-sm text-gray-500 mb-6">1번부터 25번 중에서 4명을 랜덤으로 뽑아요!</p>
+
+    <button id="drawButton" class="bg-pink-400 hover:bg-pink-500 text-white font-bold py-2 px-6 rounded-full shadow-md transition duration-300 ease-in-out">
+      뽑기 시작! 🎲
+    </button>
+
+    <div id="result" class="mt-6 space-y-2">
+      <!-- 결과 출력 위치 -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
